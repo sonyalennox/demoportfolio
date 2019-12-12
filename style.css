@@ -1,0 +1,167 @@
+@import url(fonts.css);
+@import url(reset.css);
+
+img {
+    position: relative;
+ 
+}
+body {
+  background: lavenderblush;
+}
+h1 {
+  text-align: center;
+}
+ul {
+  display: flex;
+  justify-content: center;
+}
+nav li {
+  list-style-type: none;
+  padding: .7em;
+}
+nav a {
+padding: .7em;
+text-decoration: none;
+color:black;
+font-size: 16px;
+border: 1px solid navy;
+border-radius: 0.7em;
+
+}
+nav a:hover {
+background-color:lightsteelblue;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #ecf9ff;
+}
+
+body {
+  color: #272727;
+  font-family: 'Quicksand', serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  padding: 1rem;
+}
+
+.main{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+.card {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card_content {
+  padding: 1rem;
+  background: skyblue;
+}
+
+.card_title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+/*   text-transform: capitalize; */
+  margin: 0px;
+}
+p {
+  font-size:18px;
+}
+footer {
+  margin-top: 12em;
+  font-size: 18px;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  ul {
+    flex-direction: column;
+    
+  }
+}
+
+.graphic {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: wheat;
+}
+
+.web {
+  display: flex;
+  justify-content: space-around;
+  background-color: silver;
+}
+@media (max-width:700px) {
+  .graphic {
+    display: block;
+  }
+}
+
+@media (max-width:700px) {
+  .web {
+    display: block;
+  }
+}
+
+blockquote {
+  margin-top: 2em;
+  font-size: 20px;
+  text-align: center;
+  color:royalblue;
+  font-family: "Merriweather";
+}
+
+.about {
+  font-size: 20px
+}
+
+h3 {
+  font-family: "Oswald";
+  font-size: 20px;
+}
+
+h1 {
+  font-family: "Merriweather";
+  font-size: 35px;
+}
